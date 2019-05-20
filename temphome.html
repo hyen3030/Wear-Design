@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Wear Design</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Elephant", sans-serif}
+.mySlides {display: none}
+.background{
+  color : #00667A;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar background w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#HOME" class="w3-bar-item w3-button w3-padding-large">Design WEAR</a>
+    <a href="#MENU" class="w3-bar-item w3-button w3-padding-large w3-hide-small">MENU</a>
+    <a href="#INFO" class="w3-bar-item w3-button w3-padding-large w3-hide-small">INFO</a>
+    <a href="#CONTACT" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button"></a>
+        <a href="#" class="w3-bar-item w3-button">있어요?</a>
+        <a href="#" class="w3-bar-item w3-button">어떤거?</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#MENU" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MENU</a>
+  <a href="#INFO" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">INFO</a>
+  <a href="#CONTACT" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#MORE" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MOREinfo</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="taste.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h1>디자인의 맛은 어떠할까요?</h1>
+      <p><b>We create your Life!</b></p>
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="iphone 8.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>iPhone 8 Red Edition</h3>
+      <p><b>이건 이뻐서 사고시퍼 ㅠ . ㅠ</b></p>
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="mac.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>MacBook</h3>
+      <p><b>Thank you, 나는 항상 이쁘죠?</b></p>
+    </div>
+  </div>
+
+  <!-- The Section 1 -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="MENU">
+    <h2 class="w3-wide">저희는 디자인을 입힙니다.</h2>
+    <p class="w3-opacity"><i>We design your home Perfectly.</i></p>
+    <p class="w3-opacity">디자인을 한다고 생각하는건 저희의 사상과는 맞지 않습니다. <br><br>
+      저희는 디자인을 하는게 아닌 근본적인 디자인을 입혀야 한다고 생각합니다.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>팀쿡이지렁</p>
+        <img src="Cook.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>iPhone Red Edition</p>
+        <img src="iphone 8.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>MacBook</p>
+        <img src="mac.jpg" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+  <!-- The Section 2 -->
+  <div class="w3-gray" id="INFO">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">RESERVATION</h2>
+      <p class="w3-opacity w3-center"><i>예약중입니다!</i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-skyblue">
+        <li class="w3-padding">Today <span class="w3-tag w3-red w3-margin-left">예약 마감</span></li>
+        <li class="w3-padding">Tomorrow <span class="w3-badge w3-right w3-margin-right">3</span></li>
+      </ul>
+<!--////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/부산.jpg" alt="Busan" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>부산</b></p>
+            <p class="w3-opacity">요일 일자 월 년도</p>
+            <p>해당되는 지역을 <br>선택해 주십시오..</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">문의하기</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/paris.jpg" alt="Ulsan" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>울산</b></p>
+            <p class="w3-opacity">요일 일자 월 년도</p>
+            <p>해당되는 지역을 <br>선택해 주십시오..</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">문의하기</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="/w3images/sanfran.jpg" alt="Kyeong Nam" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>경남</b></p>
+            <p class="w3-opacity">요일 일자 월 년도</p>
+            <p>해당되는 지역을 <br>선택해 주십시오..</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">문의하기</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mode -->
+  <div id="CONTACT" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal w3-center w3-padding-32">
+        <span onclick="document.getElementById('ticketModal').style.display='none'"
+       class="w3-button w3-teal w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa fa-shopping-cart"></i> Tickets, $15 per person</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="How many?">
+        <p><label><i class="fa fa-user"></i> Send To</label></p>
+        <input class="w3-input w3-border" type="text" placeholder="Enter email">
+        <button class="w3-button w3-block w3-teal w3-padding-16 w3-section w3-right">PAY <i class="fa fa-check"></i></button>
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
+        <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The Section3 -->
+  <div class="w3-container w3-blue w3-content w3-padding-64" style="max-width:800px" id="CONTACT">
+    <h2 class="w3-wide w3-center">CONTACT (연락처)</h2>
+    <p class="w3-opacity w3-center"><i>아래 번호로 연락주세요
+      .</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Busan, Korea<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone : +82 1065901514<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email : ins1@naver.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="NAME" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="E-mail" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="leave a message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND (보내기)</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+<!-- End Page Content --> <!-- 마침 -->
+</div>
+
+<!-- Footer --> <!-- 밑에 토글 -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity w3-spin"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <li class="_spi_cafe spi_btn_cafe" data-button="cafe">
+    <a href="#" title="카페 보내기" class="_spi_cafe" target="_blank">
+      <span style="display:none;"></em>
+      </a>
+    </li>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <i class="fa fa-refresh w3-spin"></i>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">Song H.J</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 4000);
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+<!--////////////////////////////////////////////////////////////////////////-->
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
