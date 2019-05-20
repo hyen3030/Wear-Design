@@ -1,1 +1,1 @@
-# Wear-Design
+# WearDesign
